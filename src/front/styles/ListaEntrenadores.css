@@ -1,0 +1,108 @@
+.list-group {
+    border-radius: 5px;
+}
+.fotoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 30%;
+    object-fit: cover;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 15px;
+}
+.nombreListaEntrenadores {
+    font-size: 18px;
+}
+.Nombre,
+.Apellido {
+    color: #e7a33e;
+}
+.btnConoceme,
+.btnCerrar {
+    background-color: #e7a33e;
+    color: black;
+    font-size: 60%;
+    padding: 0.5%;
+    border-radius: 5px;
+}
+.btnConoceme:hover {
+    color: white;
+}
+.btnCloseEntrenador {
+    background-color: #e7a33e;
+    color: black;
+    padding: 1%;
+    border-radius: 5px;
+    font-size: 60%;
+}
+.btnCloseEntrenador:hover {
+    color: white;
+}
+.modal-bodyEntrenador {
+    color: black;
+}
+.fotoMiniEntrenador {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid #e7a33e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btnContratame {
+    background: #e7a33e;
+    white-space: nowrap;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: .375rem .75rem;
+}
+.btnContratame:hover {
+    background-color: #e7a33e;
+    color: white;
+    outline: none;
+    box-shadow: none;
+}
+.btnContratar,
+.btnPlanes {
+    background: #e7a33e;
+    white-space: nowrap;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 2%;
+    padding: 2%;
+}
+.btnPlanes.selected {
+    background-color:rgba(0, 0, 0, 0.8);
+    color: #fff;
+}
+.contenedorBotonContratar,
+.contenedorBotonesPlanes {
+    justify-content: center;
+    display: flex;
+}
+.btnContratarListaEntrenadores {
+    background: #e7a33e;
+    white-space: nowrap;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 2%;
+    padding: 2%;
+    width: 100%;
+}
+
+#sinEntrenador{
+    background-color:rgba(0, 0, 0, 0.8);
+    color: #e7a33e;
+    text-align: center;
+    font-size: 65px !important;
+}

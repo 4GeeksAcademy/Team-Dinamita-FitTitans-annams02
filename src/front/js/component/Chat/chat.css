@@ -1,0 +1,155 @@
+
+
+.containerPrincipalChat {
+    padding: 1.25rem;
+    max-width: 43.75rem;
+    margin: 0 auto;
+    color: white;
+}
+
+.contenedorTituloChat {
+    text-align: center;
+}
+
+.tituloChat {
+    color: #e7a33e;
+    border-radius: 5px;
+    font-size: 3.1rem;
+    margin-top: 2%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: inline-block;
+    padding: 0.9375rem;
+    max-width: 100%;
+    overflow: hidden;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.formularioChat {
+    border: 0.1875rem solid #e7a33e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.92);
+    padding: 1.875rem;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 5%;
+}
+
+.cajaChat {
+    height: 25rem;
+    overflow-y: scroll;
+    border: 0.0625rem solid #ccc;
+    margin-bottom: 0.625rem;
+    width: calc(100% - 1.25rem);
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    padding: 0.625rem;
+    border-radius: 5px;
+}
+
+.cajaChat ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.mensajeRemitente {
+    background-color: #d1e7dd !important; /* Verde claro */
+    text-align: right;
+    align-self: flex-end;
+}
+.mensajeDestinatario {
+    background-color: #f8d7da !important; /* Rojo claro */
+    text-align: left;
+    align-self: flex-start;
+}
+
+.mensajeItem {
+    padding: 0.5rem;
+    border-bottom: 0.0625rem solid #eee;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    margin-bottom: 0.3125rem;
+    border-radius: 5px;
+    word-wrap: break-word;
+}
+
+.inputContainer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.inputContainer input {
+    flex: 1;
+    margin-right: 0.625rem;
+    padding: 0.5rem;
+    border: 0.0625rem solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+}
+
+.inputContainer button {
+    padding: 0.625rem 1.25rem;
+    border: none;
+    border-radius: 0.3125rem;
+    background-color: #e7a33e;
+    color: black;
+    cursor: pointer;
+}
+
+.inputContainer button:hover {
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .tituloChat {
+        font-size: 2rem;
+        padding: 0.625rem;
+    }
+
+    .formularioChat {
+        padding: 1.25rem;
+    }
+
+    .cajaChat {
+        height: 20rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .tituloChat {
+        font-size: 1.5rem;
+        padding: 0.5rem;
+    }
+
+    .formularioChat {
+        padding: 1rem;
+    }
+
+    .cajaChat {
+        height: 15rem;
+    }
+
+    .inputContainer {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .inputContainer input {
+        margin-bottom: 0.625rem;
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .inputContainer button {
+        width: 100%;
+        padding: 0.625rem;
+    }
+}

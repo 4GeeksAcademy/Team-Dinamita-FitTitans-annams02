@@ -1,0 +1,241 @@
+.contenedorMiAreaCliente {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.tituloMiAreaCliente {
+    color: #e7a33e;
+    border-radius: 5px;
+    font-size: 50px;
+    margin-top: 2%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: inline-block;
+    padding: 15px;
+    max-width: 100%;
+    overflow: hidden;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.row-filaMiAreaCliente {
+    display: flex;
+    margin-top: 2%;
+    border: 2px solid #e7a33e;
+    border-radius: 5px;
+    flex: 1;
+    margin-bottom: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+    max-width: 100%;
+    overflow: hidden;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.columnaMiAreaPerfilCliente {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 320px;
+    color: #e7a33e;
+    text-align: center;
+    min-width: 0;
+    border: 2px solid #e7a33e;
+    background-image: url('https://res.cloudinary.com/dbqq4n3qa/image/upload/v1717009110/perfilusuario-cliente_eyo5ak.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.linkPerfilCliente {
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+    background: #e7a33e;
+    white-space: nowrap;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 15px;
+    min-width: 0;
+}
+.linkPerfilCliente:hover {
+    color: white;
+}
+.columnaDietaCliente {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 320px;
+    color: #e7a33e;
+    text-align: center;
+    min-width: 0;
+    border: 2px solid #e7a33e;
+    background-image: url('https://res.cloudinary.com/dbqq4n3qa/image/upload/v1717009386/dieta-cliente1_f2vlg8.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.linkDietaCliente {
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+    background: #e7a33e;
+    white-space: nowrap;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 15px;
+    min-width: 0;
+}
+.linkDietaCliente:hover {
+    color: white;
+}
+.columnaRutinasCliente {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 320px;
+    color: #e7a33e;
+    text-align: center;
+    min-width: 0;
+    border: 2px solid #e7a33e;
+    background-image: url('https://img.freepik.com/foto-gratis/mancuernas-suelo-gimnasio-ai-generativo_123827-23744.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.linkRutinasCliente {
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+    background: #e7a33e;
+    white-space: nowrap;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 15px;
+    min-width: 0;
+}
+.linkRutinasCliente:hover {
+    color: white;
+}
+.row-filaMiAreaCliente2 {
+    display: flex;
+    border: 2px solid #e7a33e;
+    border-radius: 5px;
+    flex: 1;
+    margin-left: 5%;
+    margin-right: 5%;
+    max-width: 100%;
+    overflow: hidden;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.columnaChatCliente {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 320px;
+    color: #e7a33e;
+    text-align: center;
+    min-width: 0;
+    border: 2px solid #e7a33e;
+    background-image: url('https://res.cloudinary.com/dbqq4n3qa/image/upload/v1717009747/chat1_judp6t.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.linkChatCliente {
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+    background: #e7a33e;
+    white-space: nowrap;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 15px;
+    min-width: 0;
+}
+.linkChatCliente:hover {
+    color: white;
+}
+.columnaVideosEjercicios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 320px;
+    color: #e7a33e;
+    text-align: center;
+    min-width: 0;
+    border: 2px solid #e7a33e;
+    background-image: url('https://res.cloudinary.com/dbqq4n3qa/image/upload/v1717010643/videos-clientee1_amwk5v.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.linkVideosEjercicios {
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+    background: #e7a33e;
+    white-space: nowrap;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 15px;
+    min-width: 0;
+}
+.linkVideosEjercicios:hover {
+    color: white;
+}
+.columnaMiAreaCalculaCalorias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 320px;
+    color: #e7a33e;
+    text-align: center;
+    min-width: 0;
+    border: 2px solid #e7a33e;
+    background-image: url('https://res.cloudinary.com/dbqq4n3qa/image/upload/v1717011465/calculadoracalorias1_uvbiyg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.linkMiAreaCalculaCalorias {
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+    background: #e7a33e;
+    white-space: nowrap;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 8px;
+    min-width: 0;
+}
+.linkMiAreaCalculaCalorias:hover {
+    color: white;
+}
+@media (max-width: 1000px) {
+
+    .linkPerfilCliente,
+    .linkDietaCliente,
+    .linkRutinasCliente,
+    .linkChatCliente,
+    .linkVideosEjercicios,
+    .linkMiAreaCalculaCalorias {
+        padding: 15px;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    .tituloMiAreaCliente {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 480px) {
+    .tituloMiAreaCliente {
+        font-size: 25px;
+    }
+}

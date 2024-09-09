@@ -1,96 +1,99 @@
 body {
-  background: rgb(15, 15, 15);
-  font-family: 'Inter', sans-serif;
-}
-
-.container-fluid {
-  display: flex;
-  flex-direction: column;
+  padding-top: 100px;
 }
 
 .row-fila1 {
   display: flex;
+  flex-wrap: wrap;
   margin-top: 2%;
   margin-left: 5%;
   margin-right: 5%;
 }
 
 .col-columna1 {
-  background-image: url('https://img.freepik.com/foto-gratis/pesas-barbell-rack_23-2147789571.jpg?t=st=1716491307~exp=1716494907~hmac=94105d3c8c2408c89bf35a4ad71de7930ac6d3035cb65798b067f2d9b795f86e&w=1380');
   max-width: 100%;
-  height: auto;
   padding: 20px;
   color: #e7a33e;
   text-align: center;
-  font-size: 60px;
-  min-width: 0;
-  /* Para evitar que el contenido de las columnas sobresalga */
-}
-
-.titulo1 {
-  background-color: rgba(0, 0, 0, 0.8);
-  font-size: 60px;
-  padding: 35px;
-  min-width: 0;
-}
-
-.subTitulo1 {
-  font-size: 30px;
-  min-width: 0;
-}
-
-.btn-ConoceEntrenadores {
-  background: #e7a33e;
-  white-space: nowrap;
-  /* Evita que el texto se divida en líneas */
-  font-size: 20px;
-  border: 1px solid black;
-  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 550px;
 }
 
 .col-columna2 {
-  background-image: url('https://img.freepik.com/foto-gratis/concepto-levantamiento-pesas-angulo-alto-mancuernas_23-2149267002.jpg?t=st=1716491903~exp=1716495503~hmac=1483153519e8f868623db7020a6b0f4f72d57f1c5ae30a020e897d1ab7e3126c&w=740');
   max-width: 100%;
-  height: auto;
   padding: 20px;
   color: #e7a33e;
   text-align: center;
-  min-width: 0;
-  /* Para evitar que el contenido de las columnas sobresalga */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 550px;
 }
 
+.titulo1,
 .titulo2 {
-  background-color: rgba(0, 0, 0, 0.8);
-  font-size: 60px;
+  background-color: rgba(0, 0, 0, 0.9);
+  border: 3px solid #e7a33e;
+  border-radius: 5px;
+  font-size: 55px;
   padding: 35px;
-  min-width: 0;
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
+.subTitulo1,
 .subTitulo2 {
   font-size: 30px;
   min-width: 0;
 }
 
+.btn-ConoceEntrenadores,
 .btn-RegistrarEntrenador {
   background: #e7a33e;
   white-space: nowrap;
-  /* Evita que el texto se divida en líneas */
   font-size: 20px;
   border: 1px solid black;
-  border-radius: 10px;
+  border-radius: 5px;
+  padding: 15px;
 }
 
+.btn-ConoceEntrenadores:hover,
+.btn-RegistrarEntrenador:hover,
+.btn-tipEntrenamientoNuevo:hover,
+.btn-tipNutricionNuevo:hover,
+.btn-tipEntrenamientoNuevo:hover {
+  color: white;
+  background-color: #e7a33e;
+  color: white;
+  outline: none;
+  box-shadow: none;
+}
 
 .row-fila2 {
   display: flex;
+  flex-wrap: wrap;
   margin-top: 3%;
   margin-left: 5%;
   margin-right: 5%;
-  border: 2px solid #740f0f;
+  border: 2px solid #e7a33e;
+  border-radius: 5px;
+  margin-bottom: 50px;
 }
 
 .col-columna3 {
-  background-image: url('https://img.freepik.com/foto-gratis/alto-angulo-pesos-suelo-gimnasio_23-2149175406.jpg?t=st=1716492834~exp=1716496434~hmac=43844d6abef2391c63a4ab0ecd357b4130bc171f577a20977d0c31d331d6fe84&w=1380');
+  background-color: rgba(0, 0, 0, 0.9);
+  background-image: url('https://res.cloudinary.com/dbqq4n3qa/image/upload/v1717006597/tip-entreno11_gruynk.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   max-width: 100%;
@@ -99,106 +102,364 @@ body {
   color: #e7a33e;
   text-align: center;
   min-width: 0;
-  border: 2px solid #740f0f;
+  border: 2px solid #e7a33e;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  position: relative;
 }
 
-.titulo3 {
-  background-color: rgba(0, 0, 0, 0.8);
-  font-size: 20px;
+#cuadroentreno{
+  background-color: rgba(0, 0, 0, 0.9);
+  height: auto;
+  width: auto;
+}
+.tituloTipsEntrenamiento {
+  border-radius: 5px;
+  font-size: 30px;
   padding: 10px;
   min-width: 0;
+  margin-bottom: 2%;
+}
+.tipEntrenamiento {
+  
+  border-radius: 5px;
+  font-size: 25px;
+  padding: 10px;
+  margin-top: 30px;
+  min-width: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  word-wrap: break-word;
+  margin-bottom: 2%;
+}
+
+.botonNuevoTipEntrenamiento {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.btn-tipEntrenamientoNuevo,
+.btn-tipNutricionNuevo {
+  background: #e7a33e;
+  white-space: nowrap;
+  font-size: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
 }
 
 .col-columna4 {
-  background-image: url('https://as2.ftcdn.net/v2/jpg/03/16/59/63/1000_F_316596390_LVzIyvqhQ0q52Zr9HOpIhFgFhWTctfz5.jpg');
+  background-image: url('https://res.cloudinary.com/dbqq4n3qa/image/upload/v1717005663/calculacalorias_zfddnz.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   max-width: 100%;
   height: 300px;
   padding: 20px;
   color: #e7a33e;
   text-align: center;
   min-width: 0;
-  border: 2px solid #740f0f;
+  border: 2px solid #e7a33e;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
 }
 
-.titulo4 {
-  background-color: rgba(0, 0, 0, 0.8);
-  font-size: 20px;
-  padding: 10px;
-  min-width: 0;
+.linkHomeCalculaCalorias {
+  display: inline-block;
+  color: black;
+  padding: 15px;
+  text-decoration: none;
+  background: #e7a33e;
+  white-space: nowrap;
+  font-size: 15px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.linkHomeCalculaCalorias:hover {
+  color: white;
 }
 
 .col-columna5 {
-  background-image: url('https://img.freepik.com/vector-gratis/conjunto-comida-pizarra_23-2147779765.jpg?t=st=1716496079~exp=1716499679~hmac=3a345c1ffe352b923064bcacc387707e2f3dc31dda7c8edf863282b2846426cb&w=740');
+  background-image: url('https://res.cloudinary.com/dbqq4n3qa/image/upload/v1717006089/tipnutricionhome_ccotsz.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
   max-width: 100%;
   height: 300px;
   padding: 20px;
   color: #e7a33e;
   text-align: center;
   min-width: 0;
-  border: 2px solid #740f0f;
+  border: 2px solid #e7a33e;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  position: relative;
 }
 
-.titulo5 {
-  background-color: rgba(0, 0, 0, 0.8);
-  font-size: 20px;
+.tituloTipsNutricion {
+ 
+  border-radius: 5px;
+  font-size: 30px;
   padding: 10px;
   min-width: 0;
+  margin-bottom: 2%;
 }
 
+.tipNutricion {
+  
+  border-radius: 5px;
+  font-size: 25px;
+  padding: 10px;
+  margin-top: 30px;
+  min-width: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  word-wrap: break-word;
+  margin-bottom: 2%;
+}
 
+.botonNuevoTipNutricion {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
 
-@media (max-width: 1000px) {
-  .col-columna1 {
+@media (max-width: 1610px) {
+
+  .titulo1,
+  .titulo2 {
+    font-size: 55px;
+    padding: 30px;
+  }
+
+  .subTitulo1,
+  .subTitulo2 {
+    font-size: 28px;
+  }
+
+  .btn-ConoceEntrenadores,
+  .btn-RegistrarEntrenador {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1495px) {
+
+  .col-columna1,
+  .col-columna2 {
+    height: 500px;
+  }
+
+  .titulo1,
+  .titulo2 {
+    font-size: 42px;
+    padding: 30px;
+  }
+
+  .subTitulo1,
+  .subTitulo2 {
+    font-size: 22px;
+  }
+
+  .btn-ConoceEntrenadores,
+  .btn-RegistrarEntrenador {
+    font-size: 18px;
+  }
+
+  .tituloTipsEntrenamiento,
+  .tituloTipsNutricion {
+    font-size: 20px;
+  }
+
+  .tipEntrenamiento,
+  .tipNutricion {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1090px) {
+  .row-fila1 {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  .titulo1,
+  .titulo2 {
+    font-size: 35px;
+    padding: 25px;
+  }
+
+  .subTitulo1,
+  .subTitulo2 {
+    font-size: 22px;
+  }
+
+  .btn-ConoceEntrenadores,
+  .btn-RegistrarEntrenador {
+    font-size: 16px;
+  }
+
+  .tituloTipsEntrenamiento,
+  .tituloTipsNutricion {
+    font-size: 18px;
+  }
+
+  .tipEntrenamiento,
+  .tipNutricion {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 995px) {
+  .row-fila1 {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  .col-columna1,
+  .col-columna2 {
+    flex: 0 0 100%;
+    max-width: 100%;
     height: auto;
   }
 
-  .titulo1 {
-    font-size: 20px;
-
+  .titulo1,
+  .titulo2 {
+    font-size: 50px;
+    padding: 20px;
   }
 
-  .btn-ConoceEntrenadores {
-    font-size: 10px;
+  .subTitulo1,
+  .subTitulo2 {
+    font-size: 30px;
+  }
+
+  .btn-ConoceEntrenadores,
+  .btn-RegistrarEntrenador {
+    font-size: 20px;
+  }
+
+  .rowfila2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: none;
+  }
+
+  .col-columna3,
+  .col-columna4,
+  .col-columna5 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .tituloTipsEntrenamiento,
+  .tituloTipsNutricion {
+    font-size: 30px;
+  }
+
+  .tipEntrenamiento,
+  .tipNutricion {
+    font-size: 20px;
   }
 }
 
 @media (max-width: 768px) {
-  .col-columna1 {
-    height: auto;
-    margin-left: 1px;
+  .row-fila1 {
+    margin-left: 2%;
+    margin-right: 2%;
   }
 
-  .titulo1 {
+  .col-columna1,
+  .col-columna2 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .titulo1,
+  .titulo2 {
+    font-size: 40px;
+  }
+
+  .subTitulo1,
+  .subTitulo2 {
+    font-size: 24px;
+  }
+
+  .btn-ConoceEntrenadores,
+  .btn-RegistrarEntrenador {
     font-size: 20px;
   }
 
-  .subtitulo1 {
-    font-size: 10px;
+  .rowfila2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: none;
   }
 
-  .btn-ConoceEntrenadores {
-    font-size: 12px;
+  .col-columna3,
+  .col-columna4,
+  .col-columna5 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .tituloTipsEntrenamiento,
+  .tituloTipsNutricion {
+    font-size: 22px;
+  }
+
+  .tipEntrenamiento,
+  .tipNutricion {
+    font-size: 20px;
   }
 }
 
+@media (max-width: 480px) {
 
-
-@media (max-width: 400px) {
-  .col-columna1 {
-    height: auto;
+  .titulo1,
+  .titulo2 {
+    font-size: 30px;
+    padding: 15px;
   }
 
-  .titulo1 {
-    font-size: 20px;
-
+  .subTitulo1,
+  .subTitulo2 {
+    font-size: 18px;
   }
 
-  .btn-ConoceEntrenadores {
-    font-size: 10px;
+  .btn-ConoceEntrenadores,
+  .btn-RegistrarEntrenador {
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  .linkHomeCalculaCalorias {
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  .tituloTipsEntrenamiento,
+  .tituloTipsNutricion {
+    font-size: 18px;
+  }
+
+  .tipEntrenamiento,
+  .tipNutricion {
+    font-size: 16px;
   }
 }

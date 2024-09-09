@@ -1,0 +1,72 @@
+.contenedorContactanos {
+    margin-bottom: 50px;
+}
+.contenedorTituloContactanos {
+    text-align: center;
+}
+.TituloContactanos {
+    color: #e7a33e;
+    font-size: 50px;
+    margin-top: 2%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 5px;
+    display: inline-block;
+    padding: 15px;
+    max-width: 100%;
+    overflow: hidden;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.contenedorFormulario {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.contenedorFormulario {
+    border: 3px solid #e7a33e;
+    border-radius: 5px;
+    padding: 30px;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    max-width: 100%;
+    overflow: hidden;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.TituloFormulario {
+    color: white;
+    font-size: 20px;
+    margin-top: 2%;
+}
+.textoFormulario {
+    margin-bottom: 1%;
+}
+.botonEnviarFormulario {
+    text-align: center;
+}
+.btn-FormContactanos {
+    background: #e7a33e;
+    white-space: nowrap;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 3%;
+    padding: 1%;
+    width: 80px;
+}
+.btn-FormContactanos:hover {
+    color: white;
+    background-color: #e7a33e;
+    color: white;
+    outline: none;
+    box-shadow: none;
+}
+@media (max-width: 768px) {
+    .TituloContactanos {
+        font-size: 32px;
+    }
+}
+@media (max-width: 480px) {
+    .TituloContactanos {
+        font-size: 25px;
+    }
+}

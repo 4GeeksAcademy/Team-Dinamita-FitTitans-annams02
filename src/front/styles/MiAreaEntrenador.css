@@ -1,0 +1,151 @@
+.contenedorMiAreaEntrenador {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.tituloMiAreaEntrenador {
+    color: #e7a33e;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    font-size: 50px;
+    margin-top: 2%;
+    text-align: center;
+    display: inline-block;
+    padding: 15px;
+    max-width: 100%;
+    overflow: hidden;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.row-filaMiAreaEntrenador {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    border: 2px solid #e7a33e;
+    border-radius: 5px;
+    flex: 1;
+    margin-left: 5%;
+    margin-right: 5%;
+    max-width: 100%;
+    overflow: hidden;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+.columnaPerfilEntrenador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    color: #e7a33e;
+    text-align: center;
+    min-width: 0;
+    border: 2px solid #e7a33e;
+    background-image: url('https://res.cloudinary.com/dbqq4n3qa/image/upload/v1717008465/perfilusuario_luy4n6.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.linkPerfilEntrenador {
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+    background: #e7a33e;
+    white-space: nowrap;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+    min-width: 0;
+}
+.linkPerfilEntrenador:hover {
+    color: white;
+}
+.columnaClientesDelEntrenador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    color: #e7a33e;
+    text-align: center;
+    min-width: 0;
+    border: 2px solid #e7a33e;
+    background-image: url('https://res.cloudinary.com/dbqq4n3qa/image/upload/v1717158927/listaclientes-entrenador2_y8qddc.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.linkClientesDelEntrenador {
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+    background: #e7a33e;
+    white-space: nowrap;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+    min-width: 100px;
+}
+.linkClientesDelEntrenador:hover {
+    color: white;
+}
+.columnaVideosEntrenamientoEntrenador {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    padding: 20px;
+    color: #e7a33e;
+    text-align: center;
+    min-width: 0;
+    border: 2px solid #e7a33e;
+    background-image: url('https://res.cloudinary.com/dbqq4n3qa/image/upload/v1717158540/videoentrenamiento-entrenador33_fzs7ae.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.linkVideosEntrenamientoEntrenador {
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+    background: #e7a33e;
+    white-space: nowrap;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+    min-width: 0;
+}
+.linkVideosEntrenamientoEntrenador:hover {
+    color: white;
+}
+@media (max-width: 1200px) {
+
+    .linkPerfilEntrenador,
+    .linkClientesDelEntrenador,
+    .linkVideosEntrenamientoEntrenador {
+        padding: 12px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 1000px) {
+
+    .linkPerfilEntrenador,
+    .linkClientesDelEntrenador,
+    .linkVideosEntrenamientoEntrenador {
+        padding: 12px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .tituloMiAreaEntrenador {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 480px) {
+    .tituloMiAreaEntrenador {
+        font-size: 25px;
+    }
+}
